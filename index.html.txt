@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JANAKA ENTERPRISES WAYAMBA RIYAPOLA - Buy & Sell Quality Vehicles with Confidence. Premium used vehicles, easy financing, and excellent customer service.">
+    <meta name="keywords" content="vehicle sales, used cars, buy vehicles, sell vehicles, Sri Lanka, Wayamba, Riypola">
+    <title>JANAKA ENTERPRISES WAYAMBA RIYAPOLA | Buy & Sell Quality Vehicles</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-car">🚗</div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🚘</span>
+                <div class="logo-text">
+                    <span class="logo-main">JANAKA ENTERPRISES</span>
+                    <span class="logo-sub">WAYAMBA RIYAPOLA</span>
+                </div>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="vehicles.html" class="nav-link">Vehicles</a></li>
+                <li><a href="sell-vehicle.html" class="nav-link">Sell Your Vehicle</a></li>
+                <li><a href="#finance" class="nav-link">Finance</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="tel:+94771234567" class="nav-phone" aria-label="Call us">
+                    <span class="phone-icon">📞</span>
+                    <span class="phone-text">Call Now</span>
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title reveal-up">Find Your Dream Vehicle Today</h1>
+            <p class="hero-subtitle reveal-up">Buy & Sell Quality Vehicles with Confidence</p>
+            <div class="hero-buttons reveal-up">
+                <a href="vehicles.html" class="btn btn-primary">View Vehicles</a>
+                <a href="sell-vehicle.html" class="btn btn-secondary">Sell Your Vehicle</a>
+            </div>
+            <div class="hero-stats reveal-up">
+                <div class="stat">
+                    <span class="stat-number" data-target="500">0</span>
+                    <span class="stat-plus">+</span>
+                    <span class="stat-label">Vehicles Sold</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="15">0</span>
+                    <span class="stat-plus">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="98">0</span>
+                    <span class="stat-plus">%</span>
+                    <span class="stat-label">Happy Customers</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow">▼</div>
+        </div>
+    </section>
+
+    <!-- Featured Vehicles Section -->
+    <section class="section featured-vehicles" id="featured">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Our Collection</span>
+                <h2 class="section-title">Featured Vehicles</h2>
+                <p class="section-desc">Hand-picked premium vehicles, thoroughly inspected and ready for you</p>
+            </div>
+            <div class="vehicle-grid" id="featuredGrid">
+                <!-- Vehicle Card 1 -->
+                <div class="vehicle-card reveal-up">
+                    <div class="card-image">
+                        <div class="image-placeholder" data-vehicle="Toyota Aqua">
+                            <span class="placeholder-icon">🚗</span>
+                            <span class="placeholder-text">Toyota Aqua</span>
+                        </div>
+                        <span class="card-badge">Featured</span>
+                        <div class="card-overlay">
+                            <a href="vehicle-details.html" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Toyota Aqua 2018</h3>
+                        <div class="card-specs">
+                            <span class="spec"><span class="spec-icon">⚙️</span> Automatic</span>
+                            <span class="spec"><span class="spec-icon">⛽</span> Hybrid</span>
+                            <span class="spec"><span class="spec-icon">📏</span> 45,000 km</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="card-price">Rs. 4,850,000</span>
+                            <a href="vehicle-details.html" class="btn btn-outline-sm">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle Card 2 -->
+                <div class="vehicle-card reveal-up">
+                    <div class="card-image">
+                        <div class="image-placeholder" data-vehicle="Honda Vezel">
+                            <span class="placeholder-icon">🚙</span>
+                            <span class="placeholder-text">Honda Vezel</span>
+                        </div>
+                        <span class="card-badge hot">Hot Deal</span>
+                        <div class="card-overlay">
+                            <a href="vehicle-details.html" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Honda Vezel 2019</h3>
+                        <div class="card-specs">
+                            <span class="spec"><span class="spec-icon">⚙️</span> CVT</span>
+                            <span class="spec"><span class="spec-icon">⛽</span> Hybrid</span>
+                            <span class="spec"><span class="spec-icon">📏</span> 32,000 km</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="card-price">Rs. 6,200,000</span>
+                            <a href="vehicle-details.html" class="btn btn-outline-sm">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle Card 3 -->
+                <div class="vehicle-card reveal-up">
+                    <div class="card-image">
+                        <div class="image-placeholder" data-vehicle="Suzuki Alto">
+                            <span class="placeholder-icon">🚗</span>
+                            <span class="placeholder-text">Suzuki Alto</span>
+                        </div>
+                        <div class="card-overlay">
+                            <a href="vehicle-details.html" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Suzuki Alto 2020</h3>
+                        <div class="card-specs">
+                            <span class="spec"><span class="spec-icon">⚙️</span> Automatic</span>
+                            <span class="spec"><span class="spec-icon">⛽</span> Petrol</span>
+                            <span class="spec"><span class="spec-icon">📏</span> 18,000 km</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="card-price">Rs. 2,350,000</span>
+                            <a href="vehicle-details.html" class="btn btn-outline-sm">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle Card 4 -->
+                <div class="vehicle-card reveal-up">
+                    <div class="card-image">
+                        <div class="image-placeholder" data-vehicle="Toyota Prius">
+                            <span class="placeholder-icon">🚗</span>
+                            <span class="placeholder-text">Toyota Prius</span>
+                        </div>
+                        <span class="card-badge">Featured</span>
+                        <div class="card-overlay">
+                            <a href="vehicle-details.html" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Toyota Prius 2017</h3>
+                        <div class="card-specs">
+                            <span class="spec"><span class="spec-icon">⚙️</span> CVT</span>
+                            <span class="spec"><span class="spec-icon">⛽</span> Hybrid</span>
+                            <span class="spec"><span class="spec-icon">📏</span> 58,000 km</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="card-price">Rs. 5,100,000</span>
+                            <a href="vehicle-details.html" class="btn btn-outline-sm">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle Card 5 -->
+                <div class="vehicle-card reveal-up">
+                    <div class="card-image">
+                        <div class="image-placeholder" data-vehicle="Nissan X-Trail">
+                            <span class="placeholder-icon">🚙</span>
+                            <span class="placeholder-text">Nissan X-Trail</span>
+                        </div>
+                        <div class="card-overlay">
+                            <a href="vehicle-details.html" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Nissan X-Trail 2018</h3>
+                        <div class="card-specs">
+                            <span class="spec"><span class="spec-icon">⚙️</span> CVT</span>
+                            <span class="spec"><span class="spec-icon">⛽</span> Diesel</span>
+                            <span class="spec"><span class="spec-icon">📏</span> 42,000 km</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="card-price">Rs. 7,800,000</span>
+                            <a href="vehicle-details.html" class="btn btn-outline-sm">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle Card 6 -->
+                <div class="vehicle-card reveal-up">
+                    <div class="card-image">
+                        <div class="image-placeholder" data-vehicle="Mitsubishi Outlander">
+                            <span class="placeholder-icon">🚙</span>
+                            <span class="placeholder-text">Mitsubishi Outlander</span>
+                        </div>
+                        <span class="card-badge hot">New</span>
+                        <div class="card-overlay">
+                            <a href="vehicle-details.html" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Mitsubishi Outlander 2019</h3>
+                        <div class="card-specs">
+                            <span class="spec"><span class="spec-icon">⚙️</span> CVT</span>
+                            <span class="spec"><span class="spec-icon">⛽</span> Petrol</span>
+                            <span class="spec"><span class="spec-icon">📏</span> 28,000 km</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="card-price">Rs. 8,500,000</span>
+                            <a href="vehicle-details.html" class="btn btn-outline-sm">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle Card 7 -->
+                <div class="vehicle-card reveal-up">
+                    <div class="card-image">
+                        <div class="image-placeholder" data-vehicle="Daihatsu Move">
+                            <span class="placeholder-icon">🚗</span>
+                            <span class="placeholder-text">Daihatsu Move</span>
+                        </div>
+                        <div class="card-overlay">
+                            <a href="vehicle-details.html" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Daihatsu Move 2021</h3>
+                        <div class="card-specs">
+                            <span class="spec"><span class="spec-icon">⚙️</span> Automatic</span>
+                            <span class="spec"><span class="spec-icon">⛽</span> Petrol</span>
+                            <span class="spec"><span class="spec-icon">📏</span> 12,000 km</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="card-price">Rs. 2,800,000</span>
+                            <a href="vehicle-details.html" class="btn btn-outline-sm">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle Card 8 -->
+                <div class="vehicle-card reveal-up">
+                    <div class="card-image">
+                        <div class="image-placeholder" data-vehicle="Toyota Corolla">
+                            <span class="placeholder-icon">🚗</span>
+                            <span class="placeholder-text">Toyota Corolla</span>
+                        </div>
+                        <span class="card-badge">Featured</span>
+                        <div class="card-overlay">
+                            <a href="vehicle-details.html" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Toyota Corolla 2019</h3>
+                        <div class="card-specs">
+                            <span class="spec"><span class="spec-icon">⚙️</span> CVT</span>
+                            <span class="spec"><span class="spec-icon">⛽</span> Hybrid</span>
+                            <span class="spec"><span class="spec-icon">📏</span> 35,000 km</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="card-price">Rs. 5,950,000</span>
+                            <a href="vehicle-details.html" class="btn btn-outline-sm">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-cta reveal-up">
+                <a href="vehicles.html" class="btn btn-primary">View All Vehicles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="section why-choose-us" id="whyUs">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Our Advantages</span>
+                <h2 class="section-title">Why Choose Us</h2>
+                <p class="section-desc">We make buying and selling vehicles simple, safe, and satisfying</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal-up">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Trusted Dealer</h3>
+                    <p>Over 15 years of trusted service in the vehicle industry with thousands of satisfied customers.</p>
+                </div>
+                <div class="feature-card reveal-up">
+                    <div class="feature-icon">✅</div>
+                    <h3>Quality Inspected Vehicles</h3>
+                    <p>Every vehicle undergoes a comprehensive 150-point inspection before being listed for sale.</p>
+                </div>
+                <div class="feature-card reveal-up">
+                    <div class="feature-icon">💰</div>
+                    <h3>Easy Leasing</h3>
+                    <p>Flexible financing options with major banks and leasing companies to suit your budget.</p>
+                </div>
+                <div class="feature-card reveal-up">
+                    <div class="feature-icon">📊</div>
+                    <h3>Best Market Prices</h3>
+                    <p>Competitive and transparent pricing based on current market values — no hidden charges.</p>
+                </div>
+                <div class="feature-card reveal-up">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Fast Ownership Transfer</h3>
+                    <p>Hassle-free documentation and quick ownership transfer handled by our expert team.</p>
+                </div>
+                <div class="feature-card reveal-up">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Excellent Customer Service</h3>
+                    <p>Dedicated support from inquiry to after-sales — we're with you every step of the way.</p>
+                </div>
+            </div>
+        </
